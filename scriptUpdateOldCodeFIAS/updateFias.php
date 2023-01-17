@@ -15,12 +15,6 @@ Loader::includeModule('iblock');
 Loader::includeModule('highloadblock');
 
 
-
-
-
-class TooManyRequests extends Exception
-{
-}
 class Dadata
 {
     private $clean_url = "https://cleaner.dadata.ru/api/v1/clean";
